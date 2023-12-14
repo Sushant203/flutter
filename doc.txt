@@ -1,0 +1,52 @@
+DAY 2
+
+variables:
+ var : initialize garyo vani data type specific gardinxa..
+    for example:
+    var abc="hello";
+
+
+dynamic:
+            data type given value ko according set hunxa..
+            for example:
+            dynamic abc=123;
+            abc="ehiur" ...etc
+
+available data types in flutter
+1. var
+2. dynamic
+3. boolean (bool)
+4. double
+5. string
+
+
+var abc= 123>123; //data type boolean hunxa for every comparison variables..
+
+we say list instead of Array in dart.
+for example
+List list=[];....
+
+providing specific data types in list..
+List<data type> abc=[];
+
+
+//MAP data type
+Map def= {"key":"value","name":"sushant"};
+print(def['key']);
+
+
+making key and value specific data type...
+Map<string,string> def={};
+
+NAMED ARGUMENT
+parameter ko position matter gardaina like
+void main(){
+var abc= sum(b:2, a:3.1);
+print(abc);
+
+double sum({dynamic a, dynamic b}){
+    return a+b;
+}
+}
+
+column  ma vertical alignment garxa and row widget ley horizontal alignment gRAXA.
